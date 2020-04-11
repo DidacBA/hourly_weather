@@ -1,11 +1,10 @@
 package main
 
 import (
-	"io"
+	"fmt"
 	"net/http"
 	"os"
 	"time"
-	"fmt"
 )
 
 func helloWorld(w http.ResponseWriter, r *http.Request) {
